@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36404E7D197C8C1C006FDC06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36404E7C197C8C1C006FDC06 /* main.m */; };
+		36404E80197C8C1C006FDC06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36404E7F197C8C1C006FDC06 /* AppDelegate.m */; };
+		36404E86197C8C1C006FDC06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36404E84197C8C1C006FDC06 /* Main.storyboard */; };
+		36404E88197C8C1C006FDC06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36404E87197C8C1C006FDC06 /* Images.xcassets */; };
+		36404E94197C8C1C006FDC06 /* RWWordJumbleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36404E93197C8C1C006FDC06 /* RWWordJumbleTests.m */; };
+		368EAFDA197E093B00F4FD55 /* RWWordsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 368EAFD9197E093B00F4FD55 /* RWWordsManager.m */; };
+		368EAFDC197E0B8800F4FD55 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 368EAFDB197E0B8800F4FD55 /* words.txt */; };
+		368EAFDF197E0DAB00F4FD55 /* NSString+SortExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 368EAFDE197E0DAB00F4FD55 /* NSString+SortExtension.m */; };
+		368EAFE2197E35DE00F4FD55 /* RWLetterFrequencies.m in Sources */ = {isa = PBXBuildFile; fileRef = 368EAFE1197E35DE00F4FD55 /* RWLetterFrequencies.m */; };
+		368EAFE6197EEA7700F4FD55 /* deDuplicatedWords.txt in Resources */ = {isa = PBXBuildFile; fileRef = 368EAFE5197EEA7700F4FD55 /* deDuplicatedWords.txt */; };
+		36BE3036197C91F1004AB778 /* RWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BE3034197C91F1004AB778 /* RWHomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36404E8E197C8C1C006FDC06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36404E6F197C8C1C006FDC06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36404E76197C8C1C006FDC06;
+			remoteInfo = RWWordJumble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36404E77197C8C1C006FDC06 /* RWWordJumble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RWWordJumble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36404E7B197C8C1C006FDC06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36404E7C197C8C1C006FDC06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36404E7E197C8C1C006FDC06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36404E7F197C8C1C006FDC06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36404E85197C8C1C006FDC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36404E87197C8C1C006FDC06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		36404E8D197C8C1C006FDC06 /* RWWordJumbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RWWordJumbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36404E92197C8C1C006FDC06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36404E93197C8C1C006FDC06 /* RWWordJumbleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWWordJumbleTests.m; sourceTree = "<group>"; };
+		368EAFD8197E093B00F4FD55 /* RWWordsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWWordsManager.h; sourceTree = "<group>"; };
+		368EAFD9197E093B00F4FD55 /* RWWordsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWWordsManager.m; sourceTree = "<group>"; };
+		368EAFDB197E0B8800F4FD55 /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
+		368EAFDD197E0DAB00F4FD55 /* NSString+SortExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SortExtension.h"; sourceTree = "<group>"; };
+		368EAFDE197E0DAB00F4FD55 /* NSString+SortExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SortExtension.m"; sourceTree = "<group>"; };
+		368EAFE0197E35DE00F4FD55 /* RWLetterFrequencies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWLetterFrequencies.h; sourceTree = "<group>"; };
+		368EAFE1197E35DE00F4FD55 /* RWLetterFrequencies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWLetterFrequencies.m; sourceTree = "<group>"; };
+		368EAFE5197EEA7700F4FD55 /* deDuplicatedWords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = deDuplicatedWords.txt; path = ../../RWDoubleScrollView/deDuplicatedWords.txt; sourceTree = "<group>"; };
+		36BE3033197C91F1004AB778 /* RWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWHomeViewController.h; sourceTree = "<group>"; };
+		36BE3034197C91F1004AB778 /* RWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWHomeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36404E74197C8C1C006FDC06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36404E8A197C8C1C006FDC06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36404E6E197C8C1C006FDC06 = {
+			isa = PBXGroup;
+			children = (
+				36404E79197C8C1C006FDC06 /* RWWordJumble */,
+				36404E90197C8C1C006FDC06 /* RWWordJumbleTests */,
+				36404E78197C8C1C006FDC06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36404E78197C8C1C006FDC06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36404E77197C8C1C006FDC06 /* RWWordJumble.app */,
+				36404E8D197C8C1C006FDC06 /* RWWordJumbleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36404E79197C8C1C006FDC06 /* RWWordJumble */ = {
+			isa = PBXGroup;
+			children = (
+				368EAFD2197E073500F4FD55 /* Model */,
+				36BE3039197C9213004AB778 /* Controller */,
+				36BE3038197C91FF004AB778 /* View */,
+				36404E7E197C8C1C006FDC06 /* AppDelegate.h */,
+				36404E7F197C8C1C006FDC06 /* AppDelegate.m */,
+				36404E84197C8C1C006FDC06 /* Main.storyboard */,
+				36404E87197C8C1C006FDC06 /* Images.xcassets */,
+				36404E7A197C8C1C006FDC06 /* Supporting Files */,
+				368EAFDD197E0DAB00F4FD55 /* NSString+SortExtension.h */,
+				368EAFDE197E0DAB00F4FD55 /* NSString+SortExtension.m */,
+			);
+			path = RWWordJumble;
+			sourceTree = "<group>";
+		};
+		36404E7A197C8C1C006FDC06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				368EAFE5197EEA7700F4FD55 /* deDuplicatedWords.txt */,
+				368EAFDB197E0B8800F4FD55 /* words.txt */,
+				36404E7B197C8C1C006FDC06 /* Info.plist */,
+				36404E7C197C8C1C006FDC06 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36404E90197C8C1C006FDC06 /* RWWordJumbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				36404E93197C8C1C006FDC06 /* RWWordJumbleTests.m */,
+				36404E91197C8C1C006FDC06 /* Supporting Files */,
+			);
+			path = RWWordJumbleTests;
+			sourceTree = "<group>";
+		};
+		36404E91197C8C1C006FDC06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36404E92197C8C1C006FDC06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		368EAFD2197E073500F4FD55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				368EAFE0197E35DE00F4FD55 /* RWLetterFrequencies.h */,
+				368EAFE1197E35DE00F4FD55 /* RWLetterFrequencies.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		36BE3038197C91FF004AB778 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		36BE3039197C9213004AB778 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				36BE3033197C91F1004AB778 /* RWHomeViewController.h */,
+				36BE3034197C91F1004AB778 /* RWHomeViewController.m */,
+				368EAFD8197E093B00F4FD55 /* RWWordsManager.h */,
+				368EAFD9197E093B00F4FD55 /* RWWordsManager.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36404E76197C8C1C006FDC06 /* RWWordJumble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36404E97197C8C1C006FDC06 /* Build configuration list for PBXNativeTarget "RWWordJumble" */;
+			buildPhases = (
+				36404E73197C8C1C006FDC06 /* Sources */,
+				36404E74197C8C1C006FDC06 /* Frameworks */,
+				36404E75197C8C1C006FDC06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RWWordJumble;
+			productName = RWWordJumble;
+			productReference = 36404E77197C8C1C006FDC06 /* RWWordJumble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36404E8C197C8C1C006FDC06 /* RWWordJumbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36404E9A197C8C1C006FDC06 /* Build configuration list for PBXNativeTarget "RWWordJumbleTests" */;
+			buildPhases = (
+				36404E89197C8C1C006FDC06 /* Sources */,
+				36404E8A197C8C1C006FDC06 /* Frameworks */,
+				36404E8B197C8C1C006FDC06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36404E8F197C8C1C006FDC06 /* PBXTargetDependency */,
+			);
+			name = RWWordJumbleTests;
+			productName = RWWordJumbleTests;
+			productReference = 36404E8D197C8C1C006FDC06 /* RWWordJumbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36404E6F197C8C1C006FDC06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Robert Wagstaff";
+				TargetAttributes = {
+					36404E76197C8C1C006FDC06 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					36404E8C197C8C1C006FDC06 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 36404E76197C8C1C006FDC06;
+					};
+				};
+			};
+			buildConfigurationList = 36404E72197C8C1C006FDC06 /* Build configuration list for PBXProject "RWWordJumble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36404E6E197C8C1C006FDC06;
+			productRefGroup = 36404E78197C8C1C006FDC06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36404E76197C8C1C006FDC06 /* RWWordJumble */,
+				36404E8C197C8C1C006FDC06 /* RWWordJumbleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36404E75197C8C1C006FDC06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36404E86197C8C1C006FDC06 /* Main.storyboard in Resources */,
+				368EAFDC197E0B8800F4FD55 /* words.txt in Resources */,
+				368EAFE6197EEA7700F4FD55 /* deDuplicatedWords.txt in Resources */,
+				36404E88197C8C1C006FDC06 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36404E8B197C8C1C006FDC06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36404E73197C8C1C006FDC06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368EAFDA197E093B00F4FD55 /* RWWordsManager.m in Sources */,
+				368EAFDF197E0DAB00F4FD55 /* NSString+SortExtension.m in Sources */,
+				36404E80197C8C1C006FDC06 /* AppDelegate.m in Sources */,
+				36BE3036197C91F1004AB778 /* RWHomeViewController.m in Sources */,
+				368EAFE2197E35DE00F4FD55 /* RWLetterFrequencies.m in Sources */,
+				36404E7D197C8C1C006FDC06 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36404E89197C8C1C006FDC06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36404E94197C8C1C006FDC06 /* RWWordJumbleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36404E8F197C8C1C006FDC06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36404E76197C8C1C006FDC06 /* RWWordJumble */;
+			targetProxy = 36404E8E197C8C1C006FDC06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36404E84197C8C1C006FDC06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36404E85197C8C1C006FDC06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36404E95197C8C1C006FDC06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36404E96197C8C1C006FDC06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36404E98197C8C1C006FDC06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = RWWordJumble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36404E99197C8C1C006FDC06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = RWWordJumble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		36404E9B197C8C1C006FDC06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RWWordJumble.app/RWWordJumble";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RWWordJumbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		36404E9C197C8C1C006FDC06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RWWordJumble.app/RWWordJumble";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RWWordJumbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36404E72197C8C1C006FDC06 /* Build configuration list for PBXProject "RWWordJumble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36404E95197C8C1C006FDC06 /* Debug */,
+				36404E96197C8C1C006FDC06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36404E97197C8C1C006FDC06 /* Build configuration list for PBXNativeTarget "RWWordJumble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36404E98197C8C1C006FDC06 /* Debug */,
+				36404E99197C8C1C006FDC06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36404E9A197C8C1C006FDC06 /* Build configuration list for PBXNativeTarget "RWWordJumbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36404E9B197C8C1C006FDC06 /* Debug */,
+				36404E9C197C8C1C006FDC06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36404E6F197C8C1C006FDC06 /* Project object */;
+}
